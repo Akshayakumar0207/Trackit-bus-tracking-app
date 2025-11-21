@@ -22,17 +22,17 @@ class BusManagementPage extends StatefulWidget {
 class _BusManagementPageState extends State<BusManagementPage> {
   List<BusItem> buses = [
     BusItem(
-        number: 'TN45-2341',
+        number: 'B88',
         route: 'Salem - College',
         driver: 'Rajesh Kumar',
         status: 'ACTIVE'),
     BusItem(
-        number: 'TN45-2342',
+        number: 'B161',
         route: 'Erode - College',
         driver: 'Suresh Babu',
         status: 'IDLE'),
     BusItem(
-        number: 'TN45-2343',
+        number: 'B116',
         route: 'Namakkal - College',
         driver: 'Murugan',
         status: 'MAINTENANCE'),

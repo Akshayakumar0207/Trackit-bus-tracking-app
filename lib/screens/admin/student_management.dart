@@ -9,9 +9,14 @@ class StudentManagementPage extends StatefulWidget {
 
 class _StudentManagementPageState extends State<StudentManagementPage> {
   final List<Map<String, String>> students = [
-    {'name': 'Priya Sharma', 'email': 'priya@college.edu', 'bus': 'TN45-2341'},
-    {'name': 'Arjun Patel', 'email': 'arjun@college.edu', 'bus': 'TN45-2342'},
-    {'name': 'Sneha Reddy', 'email': 'sneha@college.edu', 'bus': 'TN45-2341'},
+    {'name': 'Akshaya Kumar', 'email': 'akshu@college.edu', 'bus': 'B88'},
+    {'name': 'Kavya Ananth', 'email': 'kavzz@college.edu', 'bus': 'B116'},
+    {'name': 'Gopika Malar', 'email': 'gopika@college.edu', 'bus': 'B113'},
+    {
+      'name': 'Keerthana vishwanathan',
+      'email': 'keerthi@college.edu',
+      'bus': 'B161'
+    },
   ];
 
   @override

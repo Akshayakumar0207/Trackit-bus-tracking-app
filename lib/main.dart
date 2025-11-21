@@ -27,6 +27,7 @@ import 'screens/admin/add_student.dart';
 import 'screens/admin/system_settings.dart';
 import 'screens/admin/export_page.dart';
 import 'screens/admin/generate_report.dart';
+import 'screens/admin/add_bus_dialog.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -75,6 +76,7 @@ class MyApp extends StatelessWidget {
         '/system_settings': (c) => const SystemSettingsPage(),
         '/export': (c) => const ExportPage(),
         '/generate_report': (c) => const GenerateReportPage(),
+        '/add_bus': (c) => const AddBusDialog(),
       },
 
       // fallback route (optional)
